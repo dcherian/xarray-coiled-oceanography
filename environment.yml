@@ -1,0 +1,46 @@
+name: coiled
+channels:
+  - conda-forge
+  - pyviz
+dependencies:
+  - black
+  - bokeh
+  - bottleneck
+  - cachey
+  - cartopy
+  - cftime
+  - cf_xarray
+  - dask
+  - dask_labextension
+  - datashader
+  - distributed
+  - flake8
+  - hvplot
+  - holoviews
+  - ipympl
+  - ipython
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - jupyterlab_code_formatter
+  - jupyter_contrib_nbextensions
+  - jupyter-server-proxy
+  - matplotlib
+  - nc-time-axis
+  - netcdf4
+  - nodejs
+  - notebook
+  - numba
+  - numpydoc
+  - pandas<1.1.0
+  - pep8
+  - pip
+  - python-graphviz
+  - qtconsole
+  - seaborn
+  - tqdm
+  - xarray
+  - zarr
+  - pip:
+    - dask_jobqueue
+    - ncar_jobqueue
